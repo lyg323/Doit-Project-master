@@ -406,6 +406,24 @@ footer {
   padding-left: 20px;
   font-size: 12px;
 }
+.modal-open #appPage {
+  z-index: 9;
+  position: relative;
+}
+.modal-header {
+  padding: 10px 20px;
+}
+.modal-header::after {
+  display: none;
+}
+.layertit {
+  font-size: 24px;
+  color: #222;
+  font-weight: 700;
+}
+.bi {
+  margin-right: 5px;
+}
 
 /* 태블릿 */
 @media screen and (max-width: 1024px) {
